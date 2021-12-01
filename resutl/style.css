@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Playfair+Display:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #2D2D2D;
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Playfair Display', serif;
+   
+}
+p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+@media (max-width: 1000px) {
+    .top-menu{
+        display: flex;
+        margin: 0 51px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom:47px ;
+        }
+        .top-menu img{
+            width: 100px;
+            height: 29px;
+        
+        }
+        a{
+            text-decoration: none;
+            color: #2D2D2D;
+            margin: 0 51px;
+        }
+        .nav{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        
+        .header{
+            position: relative;
+            display: block;
+           z-index: 0;
+        }
+        .hel img{
+            width: 100%;
+            height: auto;
+        }
+        
+        h1{
+            font-size: 40px;
+            color: white;
+            text-align: center;
+        }
+        .titleWithButton{
+            position: absolute;
+            top: 20px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+              display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .headerSection button {
+            margin-top: 15px;
+            background-color: #FE4A51;
+            color: white;
+            padding:  7px 40px 7px 40px;
+            font-size: 7px;
+            border: none;
+        }
+        .exampleFood{
+            z-index: 3;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        }
+        .exampleFood img{
+            width: 200px;
+        }
+        hr{
+            height: 1px;
+            background-color: #2D2D2D;
+            
+        }
+        .main{
+            margin-right: 8%;
+            margin-left: 8%;
+            position: relative;
+            margin-top: 100px;
+        position: relative;
+        z-index: 2;
+        }
+        
+        .main-content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           justify-content: center;
+         
+        }
+        .mostPopularFood{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin:0;
+            padding: 0;
+            
+        }
+        .moreRecipes p{
+            text-align: center;
+            font-size: 12px;
+        }
+        .mostPopularFood div{
+            position: relative;
+            display: block;
+            margin-right:15px;
+            margin-top: 15px;
+        }
+        .mostPopularFood div p {
+            top: 235px;
+            right: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            position:absolute;
+            color: white;
+            font-size: 20px;
+        }
+        .mostPopular h2{
+            font-size: 40px;
+            text-align: center;
+        }
+        .authorContent{
+            display: flex;
+            flex-direction: column;
+           align-items: center;
+           justify-content: center;
+           margin: 0;
+        }
+        .authorContent p {
+            font-weight: lighter;
+          
+        }
+        .authorContent h4{
+            margin: 15px;
+        }
+        .authorContent img{
+            margin-bottom: 0px;
+        }
+        .author h3{
+            margin-bottom: 27px;
+            font-size: 40px;
+            text-align: center;
+        }
+        .author h4{
+            color: #2D2D2D;
+            font-size: 24px;
+            margin-top: 23px;
+        }
+        .author p{
+            color: #2D2D2D;
+            font-size: 15px;
+            margin-top: 0px;
+            text-align: center;
+        }
+        .trandingContent p{
+            text-align: start;
+            
+        }
+        .moreRecipes{
+            background-color: #FFE5E6;
+            background-size: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin-top: 118px;
+            margin-bottom: 118px;
+        }
+        .moreRecipes div{
+           
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        
+        }
+        .moreRecipes h6{
+            padding-top: 0;
+            margin-top: 0;
+            font-size: 15px;
+        }
+        .moreRecipes img{
+            padding-top: 0;
+            margin-top: 0;
+        }
+        .trandingContent div{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            margin-top: 10px;
+        }
+        .trandingContent div img{
+           margin-right: 10px;
+        }
+        .about{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin:  72px 0 120px 0;
+        }
+        .about div{
+            margin: 0 42px;
+        
+        }
+        .about h3{
+            font-size: 24px;
+        
+        }
+        .about p{
+            font-size: 15px;
+            font-weight: lighter;
+        }
+        .description{
+            background-color: #2D2D2D;
+            background-size: 100%;
+            font-size: 15px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            font-weight: lighter;
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+        
+        .lastersRecipe{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            
+        }
+       
+        
+        .lastersRecipe div{
+            position: relative;
+            /* display: block; */
+            margin-right:15px;
+            margin-top: 15px;
+        }
+        .lastersRecipe div p {
+            top: 120px;
+            right: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            position:absolute;
+            color: white;
+            font-size: 15px;
+           
+        }
+}
+@media (min-width: 1000px) {
+.top-menu{
+display: flex;
+margin: 0 51px;
+flex-direction: row;
+align-items: center;
+flex-wrap: wrap;
+margin-top: 40px;
+margin-bottom:47px ;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+align-items: center;
+flex-wrap: wrap;
+}
+.top-menu img{
+    width: 100px;
+    height: 29px;
+
+}
+a{
+    text-decoration: none;
+    color: #2D2D2D;
+    margin: 0 51px;
+}
+
+
+.header{
+    position: relative;
+    display: block;
+   z-index: 0;
+}
+.hel img{
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
+.titleWithButton{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerSection button {
+    margin-top: 30px;
+    background-color: #FE4A51;
+    color: white;
+    padding:  7px 40px 7px 40px;
+    font-size: 14px;
+    border: none;
+}
+.exampleFood{
+    z-index: 3;
+    position:relative;
+height: min-content;
+ margin-top: -120px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+hr{
+    height: 1px;
+    background-color: #2D2D2D;
+    
+}
+.main{
+    margin-right: 8%;
+    margin-left: 8%;
+    position: relative;
+    margin-top: 100px;
+position: relative;
+z-index: 2;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+   justify-content: center;
+ 
+}
+.mostPopularFood{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin:0;
+    padding: 0;
+    
+}
+.moreRecipes p{
+    text-align: center;
+    font-size: 12px;
+}
+.mostPopularFood div{
+    margin-right:15px;
+    margin-top: 15px;
+    position:relative;
+}
+.mostPopularFood div p {
+    top: 235px;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    color: white;
+    font-size: 20px;
+}
+.authorContent{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin: 0;
+}
+.authorContent p {
+    font-weight: lighter;
+  
+}
+.authorContent h4{
+    margin: 15px;
+}
+.authorContent img{
+    margin-bottom: 0px;
+}
+.author h3{
+    margin-bottom: 27px;
+}
+.author h4{
+    color: #2D2D2D;
+    font-size: 24px;
+    margin-top: 23px;
+}
+.author p{
+    color: #2D2D2D;
+    font-size: 15px;
+    margin-top: 0px;
+    text-align: center;
+}
+.trandingContent p{
+    text-align: start;
+}
+.moreRecipes{
+    background-color: #FFE5E6;
+    background-size: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 118px;
+    margin-bottom: 118px;
+}
+.moreRecipes div{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.moreRecipes h6{
+    padding-top: 0;
+    margin-top: 0;
+}
+.moreRecipes img{
+    padding-top: 0;
+    margin-top: 0;
+}
+.trandingContent div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.trandingContent div img{
+   margin-right: 10px;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:  72px 0 120px 0;
+}
+.about div{
+    margin: 0 42px;
+
+}
+.about h3{
+    font-size: 24px;
+
+}
+.about p{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.description{
+    background-color: #2D2D2D;
+    background-size: 100%;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.lastersRecipe{
+    display: flex;
+    justify-content: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+    
+}
+
+.lastersRecipe div{
+    position: relative;
+    display: block;
+    margin-right:15px;
+    margin-top: 15px;
+}
+.lastersRecipe div p {
+    top: 120px;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    color: white;
+    font-size: 15px;
+   
+}
+}
